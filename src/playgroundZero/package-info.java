@@ -23,4 +23,6 @@ package playgroundZero;
  * 5. make some changes on both sides and resolve conflict at local
  *   - at local: keep editing this file then commit
  *   - at remote: add readme for GitHub then commit
+ *   - ok README.md will not be fetched, probably because it's not on the index
+ *   - let's edit a file (this file) which is already on the index
  */
