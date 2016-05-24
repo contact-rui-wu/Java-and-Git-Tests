@@ -21,4 +21,6 @@ package playgroundZero;
  *   - add a file and remember to also add to index
  *   - try commit and push this time
  * 5. make some changes on both sides and resolve conflict at local
+ *   - ok README.md will not be fetched, probably because it's not on the index
+ *   - let's edit a file (this file) which is already on the index
  */
