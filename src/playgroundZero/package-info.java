@@ -17,8 +17,10 @@ package playgroundZero;
  * 3. get it on GitHub - done
  *   - but every local commit is retained, there's no "push message"
  *   - so use local commit wisely
- * 4. make some changes at local and push to remote (GitHub)
+ * 4. make some changes at local and push to remote (GitHub) - done
  *   - add a file and remember to also add to index
  *   - try commit and push this time
  * 5. make some changes on both sides and resolve conflict at local
+ *   - at local: keep editing this file then commit
+ *   - at remote: add readme for GitHub then commit
  */
