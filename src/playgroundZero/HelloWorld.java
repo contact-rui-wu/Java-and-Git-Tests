@@ -24,7 +24,7 @@ public class HelloWorld {
 	 */
 	public static void testPushExist() {
 		// 2 steps commit then push - success
-		// 1 step commit and push
+		// 1 step commit and push - success
 	}
 
 }
