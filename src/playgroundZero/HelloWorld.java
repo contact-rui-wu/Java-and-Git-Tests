@@ -18,5 +18,12 @@ public class HelloWorld {
 	public static void testDoc() {
 		// nothing
 	}
+	
+	/**
+	 * Testing EGit push: changes in an existing file
+	 */
+	public static void testPushExist() {
+		// commit first, then push
+	}
 
 }
