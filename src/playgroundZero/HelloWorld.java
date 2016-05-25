@@ -23,7 +23,8 @@ public class HelloWorld {
 	 * Testing EGit push: changes in an existing file
 	 */
 	public static void testPushExist() {
-		// commit first, then push
+		// 2 steps commit then push - success
+		// 1 step commit and push
 	}
 
 }
