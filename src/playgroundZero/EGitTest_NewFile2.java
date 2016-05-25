@@ -7,7 +7,7 @@ package playgroundZero;
 public class EGitTest_NewFile2 {
 
 	public static void main(String[] args) {
-		// nothing
+		// creating new file, do not add to index, but tick the box in commit dialog - success
 
 	}
 
