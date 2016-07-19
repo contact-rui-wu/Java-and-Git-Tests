@@ -26,5 +26,13 @@ public class HelloWorld {
 		// 2 steps commit then push - success
 		// 1 step commit and push - success
 	}
+	
+	/**
+	 * Testing merge and push branches
+	 */
+	public static void testMerge() {
+		// first merge locally
+		// then push to GitHub
+	}
 
 }
