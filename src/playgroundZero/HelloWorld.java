@@ -10,6 +10,13 @@ public class HelloWorld {
 
 	}
 	
+	/**
+	 * Changed GitHub username and updated remote tracking in local Git, wanna make sure it's done right
+	 */
+	public static void testChangeURL() {
+		// commit and push
+	}
+	
 	public static void testEmptyConstructor() {
 		MyClass test = new MyClass();
 		System.out.println("empty constructor");
