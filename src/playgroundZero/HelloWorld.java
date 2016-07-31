@@ -1,13 +1,65 @@
 package playgroundZero;
 
+import java.awt.Rectangle;
+import java.util.*;
+
 public class HelloWorld {
 	
 	public static void main(String[] args) {
 		
 		// lol I'm not gonna write the Hello World here
 		// remember to add newly created file to index so that it is Git-trackable
-		testEmptyConstructor();
+		testHashMap();
 
+	}
+	
+	public static void testHashMap() {
+		HashMap hm = new HashMap(5);
+		hm.put("ddt im raw", "stores the raw ddt image");
+		hm.put("ddt rect raw", new Rectangle(1,2,3,4));
+		hm.put("ddt im GoPro", 1);
+		
+		System.out.println("number of secondary fields: "+hm.size());
+		
+		System.out.println("ddt im raw: "+hm.get("ddt im raw"));
+		if (hm.get("ddt im GoPro")==null) {
+			System.out.println("ddt im GoPro: doesn't exist");
+		} else {
+			System.out.println("ddt im GoPro: valid");
+		}
+		
+	}
+	
+	public void testStaticField2() {
+		MyClass.staticMethod();
+		MyClass mc1 = new MyClass();
+		mc1.staticMethod();
+		mc1.nonStaticMethod();
+	}
+	
+	public static void testStaticField() {
+		MyClass.whether = false;
+		System.out.println(MyClass.whether ? "MyClass true":"MyClass false");
+		
+		MyClass mc1 = new MyClass();
+		MyClass mc2 = new MyClass();
+		System.out.println(mc1.whether ? "mc1 true":"mc1 false");
+		System.out.println(mc2.whether ? "mc2 true":"mc2 false");
+		System.out.println(MyClass.whether ? "MyClass true":"MyClass false");
+		
+		mc2.whether = true;
+		System.out.println(mc1.whether ? "mc1 true":"mc1 false");
+		System.out.println(mc2.whether ? "mc2 true":"mc2 false");
+		System.out.println(MyClass.whether ? "MyClass true":"MyClass false");
+		
+		MyClass.whether = true;
+		System.out.println(mc1.whether ? "mc1 true":"mc1 false");
+		System.out.println(mc2.whether ? "mc2 true":"mc2 false");
+		System.out.println(MyClass.whether ? "MyClass true":"MyClass false");
+		
+		MyClass.staticMethod();
+		mc1.nonStaticMethod();
+		mc1.staticMethod();
 	}
 	
 	/**
